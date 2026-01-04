@@ -88,7 +88,7 @@ python test_script.py
 ```
 ###### Note: If you have more than one version of Python, use Python3
 ### Credits and License
-This program has been created by **Pablo Corbalán De Concepción**, you can find me here as [@pblcc](https://github.com/pblcc) or in Twitter as [@pablocorbcon](https://twitter.com/pablocorbcon)
+This program has been created by **Pablo Corbalán De Concepción**, you can find me here as [@LagrangianLad](https://github.com/LagrangianLad) 
 
 The project has been created **just for eductational purposes**, you can read the whole license of the project in [this file](LICENSE) or by using the `-l` flag when running the application.
 ```shell
