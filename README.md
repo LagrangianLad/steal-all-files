@@ -59,8 +59,6 @@ And then you should remove the `build/` folder and move the `.exe` file from the
 
 **After doing all this steps, you already can use your usb device, simply plug it to a computer and in a couple of minutes you'll have a ** `.zip` ** folder in the usb device called** `name-of-the-computer.zip` **where you'll find all the files of that computer.**
 
-Good luck, if you need some help setting up the usb device you can contact me on [Twitter](https://twitter.com/pablocorbcon) or email me to `pablo.corbalan@protonmail.com`
-
 ### Use with the interpreter
 If you want to run the script **without using an USB device** (using the Python interpreter), you can type the following commands:
 ```shell
