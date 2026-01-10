@@ -38,7 +38,7 @@ class TestScript(unittest.TestCase):
         ]
         for file in files_to_check:
             with open(file, "r") as f:
-                self.assertEquals(script.readfile(file), f.read())
+                self.assertEqual(script.readfile(file), f.read())
 
 
 

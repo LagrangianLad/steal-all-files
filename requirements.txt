@@ -1,10 +1,42 @@
 # This file contains all the Python libraries that have to be used when running this application.
-# To install this libraries you can use: pip(3) install -r requirements.txt
+# To install these libraries you can use: pip(3) install -r requirements.txt
 #
-# This script has been created by Pablo Corbalán De Concepión | tw: @pablocorbcon
+# This script has been created by Pablo Corbalán De Concepión | tw: @LagrangianLad
 #
 # You can read the License for this script in the "LICENSE" file of this folder.
 #
-# For more information, visit: github.com/pblcc/steal-all-files (if you have access to it)
-rich
-pyinstaller
+# For more information, visit: github.com/LagrangianLad/steal-all-files (if you have access to it)
+
+# ============================================================================
+# CORE DEPENDENCIES (Required for execution)
+# ============================================================================
+
+# Rich library for enhanced console output, progress bars, tables, and panels
+# Used features:
+#   - rich.console.Console (script.py, test_script.py)
+#   - rich.markdown.Markdown (script.py)
+#   - rich.panel.Panel (script.py)
+#   - rich.progress.Progress with SpinnerColumn, TextColumn, BarColumn, 
+#     FileSizeColumn, TimeRemainingColumn (script.py)
+#   - rich.table.Table (script.py)
+#   - rich.box (script.py)
+# Version 13.0.0+ required for all Progress features and advanced formatting
+rich>=13.0.0
+
+# ============================================================================
+# DEVELOPMENT/BUILD DEPENDENCIES (Optional, for creating executables)
+# ============================================================================
+
+# PyInstaller for creating standalone executables from the script
+# Only needed if you want to generate .exe (Windows) or executable files (Unix)
+# As per README.md documentation
+pyinstaller>=5.13.0
+
+# ============================================================================
+# NOTES
+# ============================================================================
+# Standard library modules (sys, os, zipfile, platform, unittest) are 
+# included with Python and do not need to be installed separately.
+#
+# Rich automatically installs its own dependencies (markdown-it-py, pygments, etc.)
+# when installed via pip, so they don't need to be listed here separately.
